@@ -61,7 +61,7 @@ RUN apt-get -y install python2.7 python-pip python-setuptools python2.7-dev
 # Install Mercurial.
 RUN apt-get -y install mercurial
 RUN echo [ui] > /root/.hgrc
-RUN echo username=shinodas@din.or.jp >> /root/.hgrc
+RUN echo username=username@example.com >> /root/.hgrc
 
 # Install GNU ARM Embedded Toolchain.
 RUN apt-get -y install gcc-arm-none-eabi
